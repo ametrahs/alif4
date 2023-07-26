@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title></title>
+    </head>
+    <body>
+        <form>
+            <label for="fname">First Name:</label>
+            <input type="text" name="fname"id="lname"><br><br>
+
+<label for="mname">Middle Name:</label>
+            <input type="text" name="mname"id="mname"><br><br>
+
+<label for="fname">Last Name:</label>
+ <input type="text" name="lname"id="lname"><br><br><br>
+
+ <label for="bdate">Birthdate:</label>
+ <input type="date" name="bdate" value="bdate"><br><br><br>
+
+         <label for="email">Email:</label>
+            <input type="Email" name="email"id="email"placeholder="ur email only"><br><br>
+            
+            <label for="pass">Password:</label>
+            <input type="password" name="pass"id="pass"><br><br>
+
+            <label for="uname">Username:</label>
+            <input type="text" name="uname"id="uname"><br><br>
+        
+            <label for="phone">PhoneNumber:</label>
+            <input type="number" name="phone"id="phone"title=" ur phone number only plz"><br><br>
+
+            <label for="sex">Sex:</label>
+            <input type="radio" name="sex"value="sex">male
+            <input type="radio" name="sex"value="sex">female
+<br>
+ <article>
+    select ur own favorite quran reciters;
+ </article>
+ <input type="checkbox" name=""value="">sheikh Abdella Basfer<br>
+ <input type="checkbox" name=""value="">sheikh Mishary<br>
+ <input type="checkbox" name=""value="">sheikh Abubershatri<br>
+ <input type="checkbox" name=""value="">sheikh Abdurehman sheikh Anwar
+
+<div>
+            <fieldset >
+         <legend > what do u do 4 life</legend>   
+            <input type="checkbox" name=""value="">hey!am student<br>
+            <input type="checkbox" name=""value="">Software Engineer </br>
+            <input type="checkbox" name=""value="">Docter<br>
+        </fieldset>
+        <br>
+        <input type="reset" value="Reset"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <input type="button" onclick="alert('hey!behappy')"value="click me">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <input type="submit" name=""value="Submit">
+
+<br>
+<br>
+</div>
+
+        </form>
+<!--simple table-->
+<div>
+    
+      <table border ="1" width="200" height="200" align="left">
+<tr>
+    <th>Colors</th>
+    <th>Cars</th>
+    <th>Planets</th>
+
+</tr>
+<tr>
+    <td>purple</td>
+    <td>ferari</td>
+    <td>earth</td>
+</tr>
+<tr>
+    <td>blue</td>
+    <td>tesla</td>
+    <td>venus</td>
+</tr>
+      </table> 
+    </div> 
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+   <!--spanning columns or rows-->
+<div>  
+   <table border ="1" width="300" height="300" align="center">
+    <tr>
+        <th>Colors</td>
+        <th>Cars</td>
+        <th>Planets</td>
+    </tr>
+
+    <tr>
+        <td colspan="3">tell me ma weakness</td>
+    </tr>
+
+    <tr>
+        <td rowspan="2">me like purple more </td>
+        <td>ferari</td>
+    <td>earth</td>
+    
+    </tr>
+    <tr>
+        <td>tesla</td>
+        <td>venus</td>
+    </tr>
+
+   </table>
+</div>
+   <br>
+   <br>
+   <!--table wiz thead,tbody,& caption-->
+   <div>
+<table border ="1" width="300" height="300" align="center">
+<caption> ALIF COURSES</caption>
+<thead>
+    <tr>
+        <th>web design</th>
+        <th>graphics</th>
+    </tr>
+</thead>
+
+
+<tbody>
+    <tr>
+        <th> help to design web </th>
+        <th> help to develop ur own graphics design</th>
+    </tr>
+</tbody>
+
+<tfooter>
+    <tr>
+        <th>  u enjoy it! </th>
+        <th> u lov it!</th>
+    </tr>
+</tfooter>
+
+
+
+
+</table>
+</div>
+<!--column groups-->
+<div>
+<table border ="1" width="300" height="300" align="left">
+    <thead>
+        <tr>
+            <td>alif</td>
+            <th>Courses1</th>
+            <th>Courses2</th>
+        </tr>
+    </thead>
+
+    <tbody>
+        <tr>
+            <th>donot lose ur hope</th>
+            <td>web design</td>
+            <td>graphics</td>
+        </tr>
+        <tr>
+        <th> u can</th>
+            <td>C++</td>
+            <td>java</td>
+            </tr>
+    </tbody>
+
+</table>
+</div>
+    </body>
+</html>
